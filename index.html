@@ -1,0 +1,12 @@
+---
+layout: index
+title: Skyland Labs
+---
+
+{% for post in site.posts %}
+  <h3>
+    <small>{{ post.date | date_to_string }}</small>
+    &nbsp;|&nbsp;
+    <a href="{{post.url}}">{{post.title}}</a>
+  </h3>
+{% endfor %}
