@@ -2,6 +2,50 @@ header {
     padding-top:40px;
 }
 
+footer {
+    padding-bottom: 40px;
+    color: #999;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
 h1 a {
     color: #000;
 }
+
+h2 + h3 {
+    margin-top: 4px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+ol {
+    padding-left: 12px;
+}
+
+li {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+hr {
+    margin: 16px 0;
+}
+
+div.asset {
+    padding: 10px;
+    text-align: center;
+}
+

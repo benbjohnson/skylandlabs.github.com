@@ -1,0 +1,10 @@
+digraph {
+  rankdir="LR";
+  node [style="filled", color="white", fontcolor="#ffffff", fontname="Helvetica"];
+  
+  a [fillcolor="#468847"];
+  b [fillcolor="#f89406"];
+  c [fillcolor="#b94a48"];
+  d [fillcolor="#3a87ad"];
+  a -> b -> c -> d;
+}

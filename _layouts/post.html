@@ -9,6 +9,17 @@ layout: default
 
 <hr class="soften">
 
-<h2>{{ page.title }}</h2>
+<h2>
+  {{ page.title }}
+  &nbsp;
+  <small>{{ page.date | date_to_string }}</small>
+</h2>
 
 {{ content }}
+
+
+<hr class="soften">
+
+<footer>
+  Copyright &copy; 2012, Skyland Labs.
+</footer>
