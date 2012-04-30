@@ -1,5 +1,5 @@
 digraph structs {
-    process;
+  process [label="Database\nProcess"];
     
     datafile [shape=plaintext, label=<
 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">

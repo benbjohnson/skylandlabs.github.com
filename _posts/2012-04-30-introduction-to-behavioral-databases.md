@@ -10,11 +10,6 @@ it's more than that. It doesn't have to be restricted to people -- your dog
 has behavior and even inanimate objects like your phone behave (or misbehave).
 The person or thing performing an action is called the Actor.
 
-When we are analyzing behavior we also care about tracking the state of the
-actor so that we can segment them into groups. For example, we may want to see
-how the age of a customer correlates with the action of them calling tech
-support for your product.
-
 The definition for behavioral data, in the context of behavioral databases, can
 be formalized as:
 
@@ -112,7 +107,7 @@ Spacial locality means that related data is stored nearby. It is important
 because of how computers retrieve data from the hard disk and memory.
 
 Below is a diagram of how a traditional database would store multiple events
-for a single actor.
+for a single actor on a hard disk.
 
 <center>
   <img src="/img/introduction-to-behavioral-databases/traditional_db_storage.png">
@@ -140,7 +135,8 @@ to describe or query actions and there is no standard way to store an action.
 Many people use Hadoop to process log files (which are in a sense just a list of
 actions). Hadoop is extremely flexible but also requires advanced programming
 knowledge to write complex behavioral queries or to track actor state over time.
-These features are baked into a behavioral database.
+A behavioral database, on the other hand, makes it natural to deal with these
+types of queries and to work with actor state-in-time.
 
 
 #### Behavioral Data is Big Business
@@ -166,7 +162,7 @@ of a behavioral database. It has two primary goals. It's first goal is to
 provide high performance insertion and aggregation of evented data. The project
 is still early in development but it can already aggregate a
 [directed graph](http://en.wikipedia.org/wiki/Directed_graph) of
-events at the rate of 45 million events per second on a single core. That's
+events at the rate of **45 million events per second on a single core**. That's
 snappy.
 
 The second goal of the Sky behavioral database is to provide a query language
@@ -174,7 +170,7 @@ to aggregate and extract knowledge from event paths easily. The language needs
 to be fast enough to process the millions (or billions) of events that
 organizations see generated every day. It also needs to be flexible enough to
 work with events and their relation to other events in order to derive
-meaningful information. Sky's language is called EQL (Event Query Language) and
+meaningful information. Sky's language is called *EQL* (Event Query Language) and
 is currently in development.
 
 
