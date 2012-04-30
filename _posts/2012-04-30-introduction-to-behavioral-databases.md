@@ -198,4 +198,6 @@ We'll be writing about some interesting topics on Sky in the future including:
 
 To see the status of Sky or to contribute to it, please visit the [Sky GitHub
 Page](https://github.com/skylandlabs/sky). Or follow us on Twitter
-([@skylandlabs](https://twitter.com/skylandlabs)) to get updates.
+([@skylandlabs](https://twitter.com/skylandlabs)) to get updates.<br/><br/>
+
+[Discuss this post on Hacker News](http://news.ycombinator.com/item?id=3909879)
