@@ -126,3 +126,4 @@ data in real time no matter what its scale. By making processing performance a
 top priority, I believe a new wave of tools in fields like behavioral
 analytics real-time predictive analytics are possible.
 
+[Discuss this post on Hacker News](http://news.ycombinator.com/item?id=4297839)
