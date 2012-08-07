@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Exponential Data is a Bitch
+title: Exponential Data is a B*tch
 ---
 
 ### What is an Exponential Data Set?
